@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: java-app
-          path: '${{ github.workspace }}-ws/target/*.jar'
+          path: '${{ github.workspace }}/contact-ws/target/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
